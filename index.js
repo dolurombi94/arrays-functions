@@ -1,5 +1,21 @@
 // QUESTION 1
 
+/*Mutating array: is basically changing the array itself instead of 
+returning a new array with the new changes 
+
+MUMTATING ARRAY EXAMPLES:
+array.push(), array.reverse(), array.shift(), array.sort(), 
+array.splice() and array.unshift().
+
+
+(ii) non mutating array: is returning a whole new array which has all the changes.
+NON-MUTATING ARRAY EXAMPLES:
+array.concat(), array.includes(), array.indexOf, array.join(),
+array.lastIndexOf, array.slice(), array.toString()
+and array.toLocaleString().
+*/
+
+
 // QUESTION 2
 
 let LANGUAGES = ["C#","JavaScript","Ruby","PHP","Python"]
@@ -58,3 +74,4 @@ console.log("maximum value is "+ maxFromArray(randomNumbers));
 //QUESTION 5
 
 let valTimesIndex= [];
+let valTimesIndex
