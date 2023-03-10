@@ -73,5 +73,11 @@ console.log("maximum value is "+ maxFromArray(randomNumbers));
 
 //QUESTION 5
 
-let valTimesIndex= [];
-let valTimesIndex
+let valTimesIndex=[2,4,5,7,8];
+let result=[];
+for(i=0;i<valTimesIndex.length; i++){
+   let operation= valTimesIndex[i] *i
+   result.push(operation);
+
+}
+console.log(result)
